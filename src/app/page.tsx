@@ -69,7 +69,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/3.JPG"
+          src="/Event Photography/Balet Show/image00005.jpeg"
           alt="Martina main"
           width={300}
           height={200}
