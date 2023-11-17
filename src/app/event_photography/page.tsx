@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-export default function Home() {
+import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
+export default function event_photographypage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex mb-10">
@@ -69,7 +70,11 @@ export default function Home() {
         </Link>
       </div>
       <div className="grid grid-flow-cols lg:grid-cols-3">
-        <Image
+        <ResponsiveMasonry
+                columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+            >
+                <Masonry>
+                <Image
           className="object-contain m-2"
           src="/Editorials/DSC_1834.JPG"
           alt="Martina main"
@@ -165,6 +170,9 @@ export default function Home() {
           height={200}
           priority
         />
+                </Masonry>
+            </ResponsiveMasonry>
+        
       </div>
 
 
