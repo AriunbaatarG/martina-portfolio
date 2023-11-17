@@ -91,54 +91,6 @@ export default function Home() {
           priority
         />
         <Image
-          className="object-fill m-2"
-          src="/Editorials/ed4.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Editorials/ed8.jpg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Editorials/ed9.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed10.jpg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed11.jpg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed13.jpg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
           className="object-fill m-2 grid-col-2"
           src="/Editorials/ed12.jpg"
           alt="Martina main"
@@ -164,7 +116,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/ed5.JPG"
+          src="/Editorials/ed4.jpeg"
           alt="Martina main"
           width={400}
           height={200}
@@ -172,7 +124,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/ed6.JPG"
+          src="/Editorials/ed8.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -180,7 +132,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/ed7.JPG"
+          src="/Editorials/ed9.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -210,6 +162,56 @@ export default function Home() {
           height={200}
           priority
         />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed7.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed5.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed6.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Editorials/ed13.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Editorials/ed10.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Editorials/ed11.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        
+        
       </div>
 
 

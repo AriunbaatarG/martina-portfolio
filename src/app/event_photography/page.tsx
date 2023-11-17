@@ -96,14 +96,6 @@ export default function event_photography() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Balet Show/balet4.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
           src="/Event Photography/Balet Show/balet5.jpeg"
           alt="Martina main"
           width={400}
@@ -112,7 +104,31 @@ export default function event_photography() {
         />
         <Image
           className="object-fill m-2"
+          src="/Event Photography/Dancestoned 2023/ds9.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Spotlight 2023/sl1.jpeg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds1.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Spotlight 2023/sl3.jpeg"
           alt="Martina main"
           width={400}
           height={200}
@@ -128,14 +144,6 @@ export default function event_photography() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Dancestoned 2023/ds3.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds4.JPG"
           alt="Martina main"
           width={400}
@@ -143,24 +151,8 @@ export default function event_photography() {
           priority
         />
         <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/ds5.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/ds6.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/ds7.JPG"
+          className="object-fill m-2"
+          src="/Event Photography/Dancestoned 2023/ds3.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -176,7 +168,7 @@ export default function event_photography() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Spotlight 2023/sl1.jpeg"
+          src="/Event Photography/Dancestoned 2023/ds5.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -184,7 +176,15 @@ export default function event_photography() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Spotlight 2023/sl3.jpeg"
+          src="/Event Photography/Dancestoned 2023/ds7.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned 2023/ds6.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -193,6 +193,22 @@ export default function event_photography() {
         <Image
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Spotlight 2023/sl4.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned 2023/ds11.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned 2023/ds10.JPG"
           alt="Martina main"
           width={400}
           height={200}
