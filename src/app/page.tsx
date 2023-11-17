@@ -19,18 +19,18 @@ export default function Home() {
         </div>
       </div>
       <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
-        <Link href= "/landscape" passHref legacyBehavior> 
+        <Link href= "/event_photography" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
             <h2 className={`mb-3 text-xl font-semibold`}>
-              Landscape Photography{' '}
+              Event Photography{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Landscape Digital Photography
+              Event Digital Photography
             </p>
           </a>
         </Link>
@@ -50,19 +50,18 @@ export default function Home() {
             </p>
           </a>
         </Link>
-
-        <Link href= "/event_photography" passHref legacyBehavior> 
+        <Link href= "/landscape" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
             <h2 className={`mb-3 text-xl font-semibold`}>
-              Event Photography{' '}
+              Landscape Photography{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Event Digital Photography
+              Landscape Digital Photography
             </p>
           </a>
         </Link>

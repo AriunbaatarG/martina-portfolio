@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
-export default function event_photographypage() {
+
+export default function event_photography() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex mb-10">
@@ -20,7 +20,6 @@ export default function event_photographypage() {
         </div>
       </div>
       <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
-        <p>Event</p>
         <Link href= "/landscape" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -70,13 +69,9 @@ export default function event_photographypage() {
         </Link>
       </div>
       <div className="grid grid-flow-cols lg:grid-cols-3">
-        <ResponsiveMasonry
-                columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
-            >
-                <Masonry>
-                <Image
+        <Image
           className="object-contain m-2"
-          src="/Editorials/DSC_1834.JPG"
+          src="/Event Photography/Balet Show/balet1.jpeg"
           alt="Martina main"
           width={400}
           height={200}
@@ -84,7 +79,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/IMG_1378.JPG"
+          src="/Event Photography/Balet Show/balet2.jpeg"
           alt="Martina main"
           width={400}
           height={200}
@@ -92,7 +87,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/DSC_9970.jpg"
+          src="/Event Photography/Balet Show/balet3.jpeg"
           alt="Martina main"
           width={400}
           height={200}
@@ -100,7 +95,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00009.jpeg"
+          src="/Event Photography/Balet Show/balet4.jpeg"
           alt="Martina main"
           width={400}
           height={200}
@@ -108,7 +103,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/IMG_8328.JPG"
+          src="/Event Photography/Balet Show/balet5.jpeg"
           alt="Martina main"
           width={400}
           height={200}
@@ -116,7 +111,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00011.jpeg"
+          src="/Event Photography/Dancestoned 2023/ds1.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -124,7 +119,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00005.jpeg"
+          src="/Event Photography/Dancestoned 2023/ds2.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -132,7 +127,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2"
-          src="/4.JPG"
+          src="/Event Photography/Dancestoned 2023/ds3.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -140,7 +135,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2"
-          src="/5.JPG"
+          src="/Event Photography/Dancestoned 2023/ds4.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -148,7 +143,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Spotlight 2023/image00004.jpeg"
+          src="/Event Photography/Dancestoned 2023/ds5.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -156,7 +151,7 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/IMG_4550.JPG"
+          src="/Event Photography/Dancestoned 2023/ds6.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -164,15 +159,12 @@ export default function event_photographypage() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/IMG_4606.JPG"
+          src="/Event Photography/Dancestoned 2023/ds7.JPG"
           alt="Martina main"
           width={400}
           height={200}
           priority
         />
-                </Masonry>
-            </ResponsiveMasonry>
-        
       </div>
 
 
