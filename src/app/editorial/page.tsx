@@ -155,8 +155,8 @@ export default function Home() {
           priority
         />
         <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed14.JPG"
+          className="object-fill m-2"
+          src="/Editorials/ed17.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -181,6 +181,30 @@ export default function Home() {
         <Image
           className="object-fill m-2"
           src="/Editorials/ed7.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Editorials/ed14.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed16.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed18.JPG"
           alt="Martina main"
           width={400}
           height={200}

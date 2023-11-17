@@ -107,6 +107,14 @@ export default function landscapepage() {
           priority
         />
         <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Bremen Freimarkt/bf6.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
           className="object-fill m-2"
           src="/Landscape/London/lon1.JPG"
           alt="Martina main"
@@ -148,23 +156,7 @@ export default function landscapepage() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Landscape/London/lon6.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Landscape/Schaffhausen/sh1.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Landscape/Schaffhausen/sh2.JPG"
+          src="/Landscape/Vlora/v1.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -180,7 +172,15 @@ export default function landscapepage() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Landscape/Vlora/v1.JPG"
+          src="/Landscape/Vlora/v7.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Schaffhausen/sh1.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -204,14 +204,6 @@ export default function landscapepage() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Landscape/Vlora/v4.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v5.JPG"
           alt="Martina main"
           width={400}
@@ -228,7 +220,7 @@ export default function landscapepage() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Landscape/Vlora/v7.JPG"
+          src="/Landscape/budva/b1.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -236,14 +228,47 @@ export default function landscapepage() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Landscape/Vlora/v.JPG"
+          src="/Landscape/budva/b2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/budva/b5.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/budva/b4.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/budva/b3.jpg"
           alt="Martina main"
           width={400}
           height={200}
           priority
         />
       </div>
-
+      <div className="object fill">
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/Schaffhausen/sh2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+      </div>
 
       
     </main>
