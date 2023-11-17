@@ -76,7 +76,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/ed15.JPG"
+          src="/Editorials/ed15.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -84,7 +84,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/ed2.jpg"
+          src="/Editorials/ed2.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -116,7 +116,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed10.JPG"
+          src="/Editorials/ed10.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -124,7 +124,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed11.JPG"
+          src="/Editorials/ed11.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -132,7 +132,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed13.JPG"
+          src="/Editorials/ed13.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -140,7 +140,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed12.JPG"
+          src="/Editorials/ed12.jpg"
           alt="Martina main"
           width={400}
           height={200}
