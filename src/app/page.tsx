@@ -18,7 +18,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="grid grid-flow-cols grid-cols-3">
+      <div className="grid grid-flow-cols lg:grid-cols-3">
         <Image
           className="object-fill m-2"
           src="/Editorials/DSC_1834.JPG"
