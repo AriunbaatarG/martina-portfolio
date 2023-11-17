@@ -67,73 +67,33 @@ export default function Home() {
         </Link>
       </div>
       <div className="grid grid-flow-cols lg:grid-cols-3">
+      <Image
+          className="object-fill m-2"
+          src="/Event Photography/Dancestoned 2023/ds9.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Event Photography/Dancestoned 2023/ds1.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Spotlight 2023/sl1.jpeg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
         <Image
           className="object-contain m-2"
-          src="/Editorials/DSC_1834.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Editorials/IMG_1378.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Editorials/DSC_9970.jpg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00009.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Editorials/IMG_8328.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00011.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00005.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/4.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/5.JPG"
+          src="/Editorials/ed1.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -141,7 +101,15 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Spotlight 2023/image00004.jpeg"
+          src="/Editorials/ed3.jpeg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed8.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -149,7 +117,39 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/IMG_4550.JPG"
+          src="/Landscape/Vlora/v2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/Bremen Freimarkt/bf2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/Schaffhausen/sh2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/London/lon1.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/London/lon2.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -157,7 +157,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/IMG_4606.JPG"
+          src="/Landscape/Vlora/v7.JPG"
           alt="Martina main"
           width={400}
           height={200}
