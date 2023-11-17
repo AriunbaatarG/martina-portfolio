@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-export default function Home() {
+export default function landscapepage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex mb-10">
@@ -19,23 +19,21 @@ export default function Home() {
         </div>
       </div>
       <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
-        <p>Landscape</p>
-        <Link href= "/landscape" passHref legacyBehavior> 
+      <Link href= "/event_photography" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
             <h2 className={`mb-3 text-xl font-semibold`}>
-              Landscape Photography{' '}
+              Event Photography{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Landscape Digital Photography
+              Event Digital Photography
             </p>
           </a>
         </Link>
-      
         <Link href= "/editorial" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -51,19 +49,18 @@ export default function Home() {
             </p>
           </a>
         </Link>
-
-        <Link href= "/event_photography" passHref legacyBehavior> 
+        <Link href= "/landscape" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
             <h2 className={`mb-3 text-xl font-semibold`}>
-              Event Photography{' '}
+              Landscape Photography{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Event Digital Photography
+              Landscape Digital Photography
             </p>
           </a>
         </Link>
@@ -71,7 +68,7 @@ export default function Home() {
       <div className="grid grid-flow-cols lg:grid-cols-3">
         <Image
           className="object-contain m-2"
-          src="/Editorials/DSC_1834.JPG"
+          src="/Landscape/Bremen Freimarkt/bf1.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -79,7 +76,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/IMG_1378.JPG"
+          src="/Landscape/Bremen Freimarkt/bf2.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -87,7 +84,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/DSC_9970.jpg"
+          src="/Landscape/Bremen Freimarkt/bf3.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -95,7 +92,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00009.jpeg"
+          src="/Landscape/Bremen Freimarkt/bf4.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -103,39 +100,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/IMG_8328.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00011.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00005.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/4.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/5.JPG"
+          src="/Landscape/Bremen Freimarkt/bf5.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -143,7 +108,39 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Spotlight 2023/image00004.jpeg"
+          src="/Landscape/Schaffhausen/sh2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/London/lon1.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/London/lon2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/London/lon3.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Landscape/London/lon4.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -151,7 +148,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/IMG_4550.JPG"
+          src="/Landscape/London/lon5.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -159,12 +156,94 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/IMG_4606.JPG"
+          src="/Landscape/London/lon6.JPG"
           alt="Martina main"
           width={400}
           height={200}
           priority
         />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Schaffhausen/sh1.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Schaffhausen/sh3.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Vlora/v1.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Vlora/v2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Vlora/v3.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Vlora/v8.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Vlora/v4.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Vlora/v5.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Vlora/v6.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Landscape/Vlora/v7.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        
       </div>
 
 
