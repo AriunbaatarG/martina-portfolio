@@ -19,23 +19,21 @@ export default function Home() {
         </div>
       </div>
       <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
-        <p> Editorial</p>
-        <Link href= "/landscape" passHref legacyBehavior> 
+      <Link href= "/event_photography" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
             <h2 className={`mb-3 text-xl font-semibold`}>
-              Landscape Photography{' '}
+              Event Photography{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Landscape Digital Photography
+              Event Digital Photography
             </p>
           </a>
         </Link>
-      
         <Link href= "/editorial" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -51,19 +49,18 @@ export default function Home() {
             </p>
           </a>
         </Link>
-
-        <Link href= "/event_photography" passHref legacyBehavior> 
+        <Link href= "/landscape" passHref legacyBehavior> 
           <a
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
             <h2 className={`mb-3 text-xl font-semibold`}>
-              Event Photography{' '}
+              Landscape Photography{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Event Digital Photography
+              Landscape Digital Photography
             </p>
           </a>
         </Link>
@@ -71,7 +68,7 @@ export default function Home() {
       <div className="grid grid-flow-cols lg:grid-cols-3">
         <Image
           className="object-contain m-2"
-          src="/Editorials/DSC_1834.JPG"
+          src="/Editorials/ed1.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -79,7 +76,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/IMG_1378.JPG"
+          src="/Editorials/ed15.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -87,7 +84,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/DSC_9970.jpg"
+          src="/Editorials/ed2.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -95,7 +92,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00009.jpeg"
+          src="/Editorials/ed4.jpeg"
           alt="Martina main"
           width={400}
           height={200}
@@ -103,7 +100,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Editorials/IMG_8328.JPG"
+          src="/Editorials/ed8.jpg"
           alt="Martina main"
           width={400}
           height={200}
@@ -111,31 +108,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00011.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Balet Show/image00005.jpeg"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/4.JPG"
-          alt="Martina main"
-          width={400}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/5.JPG"
+          src="/Editorials/ed9.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -143,7 +116,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Spotlight 2023/image00004.jpeg"
+          src="/Editorials/ed10.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -151,7 +124,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/IMG_4550.JPG"
+          src="/Editorials/ed11.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -159,7 +132,55 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned 2023/IMG_4606.JPG"
+          src="/Editorials/ed13.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Editorials/ed12.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Editorials/ed3.jpeg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Editorials/ed14.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed5.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed6.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Editorials/ed7.JPG"
           alt="Martina main"
           width={400}
           height={200}
