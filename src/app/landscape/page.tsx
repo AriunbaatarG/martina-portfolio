@@ -255,7 +255,7 @@ export default function landscapepage() {
       <div className=" bottom-0 left-0 mt-8 flex w-full items-end justify-center dark:from-black dark:via-black text-lg"> 
         <Link href= "/contact" passHref legacyBehavior> 
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 pointer-events-auto lg:p-0"
+            className="pointer-events-none flex place-items-center gap-2 p-8 pointer-events-auto lg:p-0 font-mono font-semibold text-xl"
           >
             Contact
           </a>
