@@ -10,9 +10,19 @@ export default function Home() {
                 </p>
             </Link>
         </div>
-        <div>
-            <h5> Contact</h5>
-            <p>Lemme know if you need more information</p>
+        <div className='flex items-center'>
+            <p className="left-0 top-0 flex w-full justify-center font-mono font-semibold z-10 text-xl"> 
+            Contact</p>
+        </div>
+        <div className='flex items-center'>
+            <p className="left-0 top-0 flex w-full text-center font-mono text-lg"> 
+            If you have any questions, wish to discuss potential commissions, or simply want to engage in a conversation, don't hesitate to get in touch with me directly. Feel free to reach out via Instagram or drop me an email—I'm always open to connecting and discussing any photography-related matters or just having a friendly chat.
+            </p>
+        </div>
+        <div className='flex items-center border-b-4 border-black'>
+            <p className="justify-center font-mono font-bold text-lg"> 
+            martinaiden39@gmail.com
+            </p>
         </div>
         <div className="grid grid-flow-cols grid-cols-4">
             <Image
