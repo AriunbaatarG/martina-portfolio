@@ -49,12 +49,12 @@ export default function Home() {
           </a>
         </Link>
       </div>
-      <div className="grid lg:flex lg:flex-wrap ">
+      <div className="grid lg:flex lg:flex-wrap justify-content-center">
         <Image
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds9.jpg"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -62,7 +62,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds1.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -70,7 +70,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Spotlight 2023/sl1.jpeg"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -78,7 +78,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/2.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -86,7 +86,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/1.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -94,7 +94,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/6.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -102,7 +102,7 @@ export default function Home() {
           className="object-contain m-2"
           src="/Editorials/ed1.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -110,7 +110,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Editorials/ed3.jpeg"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -118,7 +118,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed8.jpg"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -126,7 +126,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v2.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -134,7 +134,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Landscape/Bremen Freimarkt/bf2.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -142,7 +142,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Landscape/Schaffhausen/sh2.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -150,7 +150,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Landscape/London/lon1.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -158,7 +158,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Landscape/London/lon2.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
@@ -166,7 +166,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v7.JPG"
           alt="Martina main"
-          width={400}
+          width={380}
           height={200}
           priority
         />
