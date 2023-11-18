@@ -57,7 +57,7 @@ export default function event_photography() {
           className="object-contain m-2"
           src="/Event Photography/1.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -65,7 +65,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/2.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -73,7 +73,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/3.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -81,7 +81,7 @@ export default function event_photography() {
           className="object-contain m-2"
           src="/Event Photography/Balet Show/balet1.jpeg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -89,7 +89,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/Balet Show/balet2.jpeg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -97,7 +97,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/Balet Show/balet3.jpeg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -105,7 +105,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/Balet Show/balet5.jpeg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -113,7 +113,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds9.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -121,7 +121,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Spotlight 2023/sl1.jpeg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -129,7 +129,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds1.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -137,7 +137,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Spotlight 2023/sl3.jpeg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -145,7 +145,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds2.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -153,7 +153,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds4.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -161,7 +161,7 @@ export default function event_photography() {
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds3.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -169,7 +169,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned 2023/ds8.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -177,7 +177,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned 2023/ds5.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -185,7 +185,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned 2023/ds7.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -193,7 +193,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned 2023/ds6.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -201,7 +201,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Spotlight 2023/sl4.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -209,7 +209,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned 2023/ds11.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -217,7 +217,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned 2023/ds10.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -225,7 +225,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/1.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -233,7 +233,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/2.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -241,7 +241,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/3.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -249,7 +249,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/4.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -257,7 +257,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/5.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -265,7 +265,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/6.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -273,7 +273,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/7.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -281,7 +281,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/8.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -289,7 +289,7 @@ export default function event_photography() {
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Dancestoned2021/9.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />

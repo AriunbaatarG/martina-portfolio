@@ -53,7 +53,7 @@ export default function landscapepage() {
           className="object-contain m-2"
           src="/Landscape/Bremen Freimarkt/bf1.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -61,7 +61,7 @@ export default function landscapepage() {
           className="object-fill m-2"
           src="/Landscape/Bremen Freimarkt/bf2.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -69,7 +69,7 @@ export default function landscapepage() {
           className="object-fill m-2"
           src="/Landscape/Bremen Freimarkt/bf3.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -77,7 +77,7 @@ export default function landscapepage() {
           className="object-fill m-2"
           src="/Landscape/Bremen Freimarkt/bf4.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -85,7 +85,7 @@ export default function landscapepage() {
           className="object-fill m-2"
           src="/Landscape/Bremen Freimarkt/bf5.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -93,7 +93,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Bremen Freimarkt/bf6.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -101,7 +101,7 @@ export default function landscapepage() {
           className="object-fill m-2"
           src="/Landscape/London/lon1.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -109,7 +109,7 @@ export default function landscapepage() {
           className="object-fill m-2"
           src="/Landscape/London/lon2.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -117,7 +117,7 @@ export default function landscapepage() {
           className="object-fill m-2"
           src="/Landscape/London/lon3.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -125,7 +125,7 @@ export default function landscapepage() {
           className="object-fill m-2"
           src="/Landscape/London/lon4.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -133,7 +133,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/London/lon5.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -141,7 +141,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v1.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -149,7 +149,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Schaffhausen/sh3.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -157,7 +157,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v7.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -165,7 +165,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Schaffhausen/sh1.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -173,7 +173,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v2.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -181,7 +181,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v3.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -189,7 +189,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v5.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -197,7 +197,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Vlora/v6.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -205,7 +205,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/budva/b1.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -213,7 +213,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/budva/b2.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -221,7 +221,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/budva/b5.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -229,7 +229,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/budva/b4.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -237,7 +237,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/budva/b3.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -245,7 +245,7 @@ export default function landscapepage() {
           className="object-fill m-2 grid-col-2"
           src="/Landscape/Schaffhausen/sh2.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />

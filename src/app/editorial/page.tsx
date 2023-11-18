@@ -53,7 +53,7 @@ export default function Home() {
           className="object-contain m-2"
           src="/Editorials/ed1.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -61,7 +61,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed15.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -69,7 +69,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed2.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -77,7 +77,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Editorials/ed12.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -85,7 +85,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Editorials/ed3.jpeg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -93,7 +93,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed17.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -101,7 +101,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed4.jpeg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -109,7 +109,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed8.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -117,7 +117,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed9.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -125,7 +125,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Editorials/ed14.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -133,7 +133,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed16.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -141,7 +141,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed18.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -149,7 +149,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed7.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -157,7 +157,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed5.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -165,7 +165,7 @@ export default function Home() {
           className="object-fill m-2"
           src="/Editorials/ed6.JPG"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -173,7 +173,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Editorials/ed13.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -181,7 +181,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Editorials/ed10.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
@@ -189,7 +189,7 @@ export default function Home() {
           className="object-fill m-2 grid-col-2"
           src="/Editorials/ed11.jpg"
           alt="Martina main"
-          width={400}
+          width={360}
           height={200}
           priority
         />
