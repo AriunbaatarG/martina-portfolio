@@ -4,22 +4,14 @@ import Link from 'next/link'
 export default function event_photography() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex mb-10">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Martinaiden Demaj Portfolio&nbsp;
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none"> 
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://www.instagram.com/idenlesssly/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Contact
-          </a>
-        </div>
+      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono font-semibold text-xl lg:flex mb-10">
+        <Link href= "/" passHref legacyBehavior> 
+          <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
+            Martinaiden Demaj Portfolio&nbsp;
+          </p>
+        </Link>
       </div>
-      <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
+      <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left lg:mb-8">
 
         <Link href= "/event_photography" passHref legacyBehavior> 
           <a
@@ -31,9 +23,6 @@ export default function event_photography() {
                 -&gt;
               </span>
             </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Event Digital Photography
-            </p>
           </a>
         </Link>
         <Link href= "/editorial" passHref legacyBehavior> 
@@ -46,9 +35,6 @@ export default function event_photography() {
                 -&gt;
               </span>
             </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Editorial Photography
-            </p>
           </a>
         </Link>
         <Link href= "/landscape" passHref legacyBehavior> 
@@ -61,9 +47,6 @@ export default function event_photography() {
                 -&gt;
               </span>
             </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Landscape Digital Photography
-            </p>
           </a>
         </Link>
       
@@ -214,10 +197,89 @@ export default function event_photography() {
           height={200}
           priority
         />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/1.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/3.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/4.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/5.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/6.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/7.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/8.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/9.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
       </div>
-
-
-      
+      <div className=" bottom-0 left-0 mt-8 flex w-full items-end justify-center dark:from-black dark:via-black text-lg"> 
+          <a
+            className="pointer-events-none flex place-items-center gap-2 p-8 pointer-events-auto lg:p-0"
+            href="https://www.instagram.com/idenlessly/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contact
+          </a>
+      </div>
     </main>
   )
 }

@@ -3,10 +3,12 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-lg lg:flex mb-10">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
-          Martinaiden Demaj Portfolio&nbsp;
-        </p>
+      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono font-semibold text-xl lg:flex mb-10">
+        <Link href= "/" passHref legacyBehavior> 
+          <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
+            Martinaiden Demaj Portfolio&nbsp;
+          </p>
+        </Link>
       </div>
       <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left lg:mb-8">
         <Link href= "/event_photography" passHref legacyBehavior> 
@@ -48,7 +50,7 @@ export default function Home() {
         </Link>
       </div>
       <div className="grid grid-flow-cols lg:grid-cols-3">
-      <Image
+        <Image
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds9.jpg"
           alt="Martina main"
@@ -67,6 +69,30 @@ export default function Home() {
         <Image
           className="object-fill m-2 grid-col-2"
           src="/Event Photography/Spotlight 2023/sl1.jpeg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/2.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/1.JPG"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Dancestoned2021/6.JPG"
           alt="Martina main"
           width={400}
           height={200}
@@ -154,7 +180,7 @@ export default function Home() {
           >
             Contact
           </a>
-        </div>
+      </div>
 
       
     </main>
