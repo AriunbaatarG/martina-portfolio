@@ -10,20 +10,20 @@ export default function contact() {
                 </p>
             </Link>
         </div>
-        <div className="flex items-center">
-            <p className="left-0 top-0 flex w-full justify-center font-mono font-semibold z-10 text-xl"> 
-            Contact</p>
+        <div className="flex items-center justify-center">
+            <p className="font-mono font-semibold text-xl">Contact</p>
         </div>
-        <div className="flex">
-            <p className= "left-0 top-0 flex w-full text-center font-mono text-lg"> 
-            If you have any questions, wish to discuss potential commissions, or simply want to engage in a conversation, don't hesitate to get in touch with me directly. Feel free to reach out via Instagram or drop me an email—I'm always open to connecting and discussing any photography-related matters or just having a friendly chat.
+
+        <div className="flex justify-center">
+            <p className="font-mono text-lg text-center">
+                If you have any questions, wish to discuss potential commissions, or simply want to engage in a conversation, don't hesitate to get in touch with me directly. Feel free to reach out via Instagram or drop me an email—I'm always open to connecting and discussing any photography-related matters or just having a friendly chat.
             </p>
         </div>
-        <div className="flex items-center border-b-4 border-black">
-            <p className="justify-center font-mono font-bold text-lg"> 
-            martinaiden39@gmail.com
-            </p>
+
+        <div className="flex items-center justify-center border-b-4 border-black">
+            <p className="font-mono font-bold text-lg">martinaiden39@gmail.com</p>
         </div>
+
         <div className="grid grid-flow-cols grid-cols-4">
             <Image
                 className="object-fill m-2 grid-col-2"
