@@ -239,7 +239,7 @@ export default function event_photography() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned2021/3.JPG"
+          src="/Event Photography/Dancestoned2021/3.jpg"
           alt="Martina main"
           width={360}
           height={150}
