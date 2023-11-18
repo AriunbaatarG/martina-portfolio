@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-export default function Home() {
+export default function contact() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="z-10 max-w-5xl w-full items-center justify-between font-mono font-semibold text-xl lg:flex mb-10">
@@ -10,16 +10,16 @@ export default function Home() {
                 </p>
             </Link>
         </div>
-        <div className='flex items-center'>
+        <div className="flex items-center">
             <p className="left-0 top-0 flex w-full justify-center font-mono font-semibold z-10 text-xl"> 
             Contact</p>
         </div>
-        <div className='flex items-center'>
-            <p className="left-0 top-0 flex w-full text-center font-mono text-lg"> 
+        <div className="flex items-center">
+            <p className= "left-0 top-0 flex w-full text-center font-mono text-lg"> 
             If you have any questions, wish to discuss potential commissions, or simply want to engage in a conversation, don't hesitate to get in touch with me directly. Feel free to reach out via Instagram or drop me an email—I'm always open to connecting and discussing any photography-related matters or just having a friendly chat.
             </p>
         </div>
-        <div className='flex items-center border-b-4 border-black'>
+        <div className="flex items-center border-b-4 border-black">
             <p className="justify-center font-mono font-bold text-lg"> 
             martinaiden39@gmail.com
             </p>
@@ -57,8 +57,7 @@ export default function Home() {
                 height={50}
                 priority
             />
-
-        </div>
+         </div>
         <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left lg:mb-8">
         <Link href= "/event_photography" passHref legacyBehavior> 
           <a
