@@ -241,14 +241,12 @@ export default function landscapepage() {
           height={200}
           priority
         />
-      </div>
-      <div className="items-center justify-center h-screen">
         <Image
-          className="object-fill"
+          className="object-fill m-2 grid-col-2"
           src="/Landscape/Schaffhausen/sh2.JPG"
           alt="Martina main"
-          width={1000}
-          height={100}
+          width={400}
+          height={200}
           priority
         />
       </div>
