@@ -226,7 +226,7 @@ export default function event_photography() {
           src="/Event Photography/Dancestoned2021/1.JPG"
           alt="Martina main"
           width={360}
-          height={200}
+          height={100}
           priority
         />
         <Image
@@ -234,7 +234,7 @@ export default function event_photography() {
           src="/Event Photography/Dancestoned2021/2.JPG"
           alt="Martina main"
           width={360}
-          height={200}
+          height={100}
           priority
         />
         <Image
@@ -242,7 +242,7 @@ export default function event_photography() {
           src="/Event Photography/Dancestoned2021/3.JPG"
           alt="Martina main"
           width={360}
-          height={200}
+          height={100}
           priority
         />
         <Image
