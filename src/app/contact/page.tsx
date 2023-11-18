@@ -20,10 +20,6 @@ export default function contact() {
             </p>
         </div>
 
-        <div className="flex items-center justify-center border-b-4 border-black">
-            <p className="font-mono font-bold text-lg">martinaiden39@gmail.com</p>
-        </div>
-
         <div className="grid grid-flow-cols grid-cols-4">
             <Image
                 className="object-fill m-2 grid-col-2"
