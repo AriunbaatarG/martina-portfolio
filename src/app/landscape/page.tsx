@@ -48,7 +48,7 @@ export default function landscapepage() {
           </a>
         </Link>
       </div>
-      <div className="grid grid-flow-cols lg:grid-cols-3">
+      <div className="grid lg:flex lg:flex-wrap ">
         <Image
           className="object-contain m-2"
           src="/Landscape/Bremen Freimarkt/bf1.JPG"
