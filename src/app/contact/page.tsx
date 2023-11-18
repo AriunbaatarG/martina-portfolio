@@ -13,7 +13,9 @@ export default function contact() {
         <div className="flex items-center justify-center">
             <p className="font-mono font-semibold text-xl">Contact</p>
         </div>
-
+            <p className="font-mono text-lg text-center">
+                If you have any questions, wish to discuss potential commissions, or simply want to engage in a conversation, don&apos;t hesitate to get in touch with me directly. Feel free to reach out via Instagram or drop me an email—I&apos;m always open to connecting and discussing any photography-related matters or just having a friendly chat.
+            </p>
         <div className="flex items-center justify-center border-b-4 border-black">
             <p className="font-mono font-bold text-lg">martinaiden39@gmail.com</p>
         </div>
