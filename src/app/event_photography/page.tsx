@@ -53,6 +53,30 @@ export default function event_photography() {
 
       </div>
       <div className="grid grid-flow-cols lg:grid-cols-3">
+      <Image
+          className="object-contain m-2"
+          src="/Event Photography/1.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Event Photography/2.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Event Photography/3.jpg"
+          alt="Martina main"
+          width={400}
+          height={200}
+          priority
+        />
         <Image
           className="object-contain m-2"
           src="/Event Photography/Balet Show/balet1.jpeg"
