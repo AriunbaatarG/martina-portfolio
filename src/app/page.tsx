@@ -29,9 +29,6 @@ export default function Home() {
                 -&gt;
               </span>
             </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Event Digital Photography
-            </p>
           </a>
         </Link>
       
@@ -45,9 +42,6 @@ export default function Home() {
                 -&gt;
               </span>
             </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Editorial Photography
-            </p>
           </a>
         </Link>
         <Link href= "/landscape" passHref legacyBehavior> 
@@ -60,9 +54,6 @@ export default function Home() {
                 -&gt;
               </span>
             </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Landscape Digital Photography
-            </p>
           </a>
         </Link>
       </div>
