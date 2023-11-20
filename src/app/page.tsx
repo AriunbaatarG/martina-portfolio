@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { Analytics } from '@vercel/analytics/react';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -49,6 +50,7 @@ export default function Home() {
           </a>
         </Link>
       </div>
+      <Analytics/>
       <div className="grid lg:flex lg:flex-wrap justify-content-center">
         <Image
           className="object-fill m-2"
