@@ -21,30 +21,27 @@ export default function contact() {
         </div>
 
         <div className="grid grid-flow-cols grid-cols-4">
-            <Image
-                className="object-fill m-2 grid-col-2"
-                src="/social_icons/insta.png"
-                alt="insta"
-                width={50}
-                height={50}
-                priority
-            />
-            <Image
-                className="object-fill m-2 grid-col-2"
-                src="/social_icons/tiktok.png"
-                alt="insta"
-                width={50}
-                height={50}
-                priority
-            />
-            <Image
-                className="object-fill m-2 grid-col-2"
-                src="/social_icons/mail.png"
-                alt="insta"
-                width={50}
-                height={50}
-                priority
-            />
+            <Link href= "https://www.instagram.com/idenlessly/" passHref legacyBehavior> 
+                <Image
+                  className="object-fill m-2 grid-col-2"
+                  src="/social_icons/insta.png"
+                  alt="insta"
+                  width={50}
+                  height={50}
+                  priority
+              />
+            </Link>
+            <Link href= "https://www.tiktok.com/@idenlesssly?_t=8hWLZt3W79i&_r=1" passHref legacyBehavior> 
+                <Image
+                  className="object-fill m-2 grid-col-2"
+                  src="/social_icons/tiktok.png"
+                  alt="insta"
+                  width={50}
+                  height={50}
+                  priority
+                />
+            </Link>
+            <Link href= "https://www.youtube.com/@martinaidendemaj902/featured" passHref legacyBehavior> 
             <Image
                 className="object-fill m-2 grid-col-2"
                 src="/social_icons/youtube.png"
@@ -53,6 +50,20 @@ export default function contact() {
                 height={50}
                 priority
             />
+            </Link>
+            <Link href= "mailto:martinaiden39@gmail.com" passHref legacyBehavior> 
+            <Image
+                className="object-fill m-2 grid-col-2"
+                src="/social_icons/mail.png"
+                alt="insta"
+                width={50}
+                height={50}
+                priority
+            />
+            </Link>
+            
+            
+            
          </div>
         <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left lg:mb-8">
         <Link href= "/event_photography" passHref legacyBehavior> 
