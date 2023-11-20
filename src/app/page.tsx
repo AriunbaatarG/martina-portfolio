@@ -51,7 +51,7 @@ export default function Home() {
         </Link>
       </div>
       <div className="grid lg:flex lg:flex-wrap justify-content-center">
-      <Analytics/>
+      <Analytics/>  
         <Image
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds9.jpg"
