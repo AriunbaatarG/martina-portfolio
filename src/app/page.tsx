@@ -50,8 +50,8 @@ export default function Home() {
           </a>
         </Link>
       </div>
-      <Analytics/>
       <div className="grid lg:flex lg:flex-wrap justify-content-center">
+      <Analytics/>
         <Image
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds9.jpg"
