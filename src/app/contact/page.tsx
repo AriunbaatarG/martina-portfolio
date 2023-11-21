@@ -23,7 +23,7 @@ export default function contact() {
         <div className="grid grid-flow-cols grid-cols-4">
             <Link href= "https://www.instagram.com/idenlessly/" passHref legacyBehavior> 
                 <Image
-                  className="object-fill m-2 grid-col-2"
+                  className="object-fill m-2 grid-col-2 hover:bg-gray-100 dark:bg-white hover:cursor-pointer"
                   src="/social_icons/insta.png"
                   alt="insta"
                   width={50}
@@ -33,7 +33,7 @@ export default function contact() {
             </Link>
             <Link href= "https://www.tiktok.com/@idenlesssly?_t=8hWLZt3W79i&_r=1" passHref legacyBehavior> 
                 <Image
-                  className="object-fill m-2 grid-col-2"
+                  className="object-fill m-2 grid-col-2 hover:bg-gray-100 dark:bg-white hover:cursor-pointer"
                   src="/social_icons/tiktok.png"
                   alt="insta"
                   width={50}
@@ -43,7 +43,7 @@ export default function contact() {
             </Link>
             <Link href= "https://www.youtube.com/@martinaidendemaj902/featured" passHref legacyBehavior> 
             <Image
-                className="object-fill m-2 grid-col-2"
+                className="object-fill m-2 grid-col-2 hover:bg-gray-100 dark:bg-white hover:cursor-pointer"
                 src="/social_icons/youtube.png"
                 alt="insta"
                 width={50}
@@ -53,7 +53,7 @@ export default function contact() {
             </Link>
             <Link href= "mailto:martinaiden39@gmail.com" passHref legacyBehavior> 
             <Image
-                className="object-fill m-2 grid-col-2"
+                className="object-fill m-2 grid-col-2 hover:bg-gray-100 dark:bg-white hover:cursor-pointer"
                 src="/social_icons/mail.png"
                 alt="insta"
                 width={50}
