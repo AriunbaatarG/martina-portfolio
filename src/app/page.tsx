@@ -53,6 +53,54 @@ export default function Home() {
       <div className="grid lg:flex lg:flex-wrap justify-content-center">
       <Analytics/>  
         <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/7.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/8.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2 grid-col-2"
+          src="/Event Photography/Gemini/9.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Event Photography/Gemini/4.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Event Photography/Gemini/5.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2 grid-col-2"
+          src="/Event Photography/Gemini/6.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
           className="object-fill m-2"
           src="/Event Photography/Dancestoned 2023/ds9.jpg"
           alt="Martina main"
