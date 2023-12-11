@@ -53,7 +53,127 @@ export default function event_photography() {
 
       </div>
       <div className="grid lg:flex lg:flex-wrap">
-      <Image
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/1.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/2.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/3.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/4.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/5.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/6.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/7.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/8.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/9.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/10.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/11.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/12.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/13.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/14.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/15.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
           className="object-contain m-2"
           src="/Event Photography/1.jpg"
           alt="Martina main"

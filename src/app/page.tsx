@@ -49,24 +49,28 @@ export default function Home() {
             </h2>
           </a>
         </Link>
-        <Link href= "/videography" passHref legacyBehavior> 
-          <a
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          >
-            <h2 className={`mb-3 text-xl font-semibold`}>
-              Videophrahy{' '}
-              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-          </a>
-        </Link>
       </div>
       <div className="grid lg:flex lg:flex-wrap justify-content-center">
       <Analytics/>  
-      <Image
-          className="object-fill m-2"
-          src="/Event Photography/Gemini/IMG_6701.JPG"
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/7.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/Gemini/8.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2 grid-col-2"
+          src="/Event Photography/Gemini/9.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -74,7 +78,15 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2"
-          src="/Event Photography/Gemini/IMG_6676.JPG"
+          src="/Event Photography/Gemini/4.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-fill m-2"
+          src="/Event Photography/Gemini/5.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -82,7 +94,7 @@ export default function Home() {
         />
         <Image
           className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Gemini/IMG_6711.JPG"
+          src="/Event Photography/Gemini/6.JPG"
           alt="Martina main"
           width={360}
           height={200}
