@@ -53,6 +53,105 @@ export default function event_photography() {
 
       </div>
       <div className="grid lg:flex lg:flex-wrap">
+      <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam1.jpg"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam3.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam2.jpg"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam4.jpg"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam5.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2 "
+          src="/Event Photography/bambam12.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        /> 
+        
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam7.jpg"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam8.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam9.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam10.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2"
+          src="/Event Photography/bambam11.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        />
+        <Image
+          className="object-contain m-2 "
+          src="/Event Photography/bambam6.JPG"
+          alt="Martina main"
+          width={360}
+          height={200}
+          priority
+        /> 
         <Image
           className="object-contain m-2"
           src="/Event Photography/Gemini/1.JPG"
