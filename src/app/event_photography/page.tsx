@@ -46,7 +46,7 @@ export default function event_photography() {
       <div className="grid lg:flex lg:flex-wrap">
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM1.jpg"
+          src="/Event Photography/IM1.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -62,7 +62,7 @@ export default function event_photography() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM5.jpg"
+          src="/Event Photography/IM5.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -70,7 +70,7 @@ export default function event_photography() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM8.jpg"
+          src="/Event Photography/IM8.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -86,7 +86,7 @@ export default function event_photography() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM7.jpg"
+          src="/Event Photography/IM7.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -94,7 +94,7 @@ export default function event_photography() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM10.jpg"
+          src="/Event Photography/IM10.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -110,7 +110,7 @@ export default function event_photography() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM11.jpg"
+          src="/Event Photography/IM11.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -118,7 +118,7 @@ export default function event_photography() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM3.jpg"
+          src="/Event Photography/IM3.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -134,7 +134,7 @@ export default function event_photography() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM9.jpg"
+          src="/Event Photography/IM9.JPG"
           alt="Martina main"
           width={360}
           height={200}

@@ -48,7 +48,7 @@ export default function Home() {
         <Analytics />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM1.jpg"
+          src="/Event Photography/IM1.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -64,7 +64,7 @@ export default function Home() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM5.jpg"
+          src="/Event Photography/IM5.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -72,7 +72,7 @@ export default function Home() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM8.jpg"
+          src="/Event Photography/IM8.JPG"
           alt="Martina main"
           width={360}
           height={200}
@@ -88,7 +88,7 @@ export default function Home() {
         />
         <Image
           className="object-contain m-2"
-          src="/Event Photography/IM7.jpg"
+          src="/Event Photography/IM7.JPG"
           alt="Martina main"
           width={360}
           height={200}
