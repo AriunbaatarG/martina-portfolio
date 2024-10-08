@@ -44,14 +44,14 @@ const Header = () => {
   }, [isDropdownOpen]);
 
   return (
-    <div className="z-10 w-full fixed left-0 top-0 flex items-center justify-between font-mono font-semibold text-xl p-10 bg-gradient-to-b from-zinc-200 dark:from-zinc-800 backdrop-blur-2xl border-b border-gray-300 dark:border-neutral-800">
+    <div className="z-10 w-full fixed left-0 top-0 flex items-center justify-between font-mono font-semibold text-l p-10 bg-gradient-to-b from-zinc-200 dark:from-zinc-800 backdrop-blur-2xl border-b border-gray-300 dark:border-neutral-800">
       {/* Invisible div to reserve space for flexbox alignment */}
       <div className="invisible w-full"></div>
 
       {/* Centered Portfolio Title */}
       <div className="absolute left-1/2 transform -translate-x-1/2">
         <Link href="/" passHref legacyBehavior>
-          <p className="text-center text-2xl">
+          <p className="text-center text-xl">
             Martinaiden Demaj Portfolio&nbsp;
           </p>
         </Link>
