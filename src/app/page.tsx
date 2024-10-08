@@ -1,324 +1,45 @@
+"use client";
 import Image from "next/image";
-import Link from "next/link";
 import { Analytics } from "@vercel/analytics/react";
+import Header from "./components/Header";
+import Masonry from "react-masonry-css"; // Import Masonry
+import { imageUrls } from "./images";
+
 export default function Home() {
+  // Define responsive breakpoints for the number of columns
+  const breakpointColumnsObj = {
+    default: 4, // 4 columns by default
+    1300: 3,
+    1100: 2, // 3 columns at screen width > 1100px
+    700: 1, // 2 columns at screen width > 700px
+    500: 1, // 1 column at screen width < 500px
+  };
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono font-semibold text-xl lg:flex mb-10">
-        <Link href="/" passHref legacyBehavior>
-          <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
-            Martinaiden Demaj Portfolio&nbsp;
-          </p>
-        </Link>
-      </div>
-      <div className="mb-8 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left lg:mb-8">
-        <Link href="/event_photography" passHref legacyBehavior>
-          <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-            <h2 className={`mb-3 text-xl font-semibold`}>
-              Event Photography{" "}
-              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-          </a>
-        </Link>
+      <Header />
 
-        <Link href="/editorial" passHref legacyBehavior>
-          <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-            <h2 className={`mb-3 text-xl font-semibold`}>
-              Editorial Photography{" "}
-              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-          </a>
-        </Link>
-        <Link href="/landscape" passHref legacyBehavior>
-          <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-            <h2 className={`mb-3 text-xl font-semibold`}>
-              Landscape Photography{" "}
-              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-          </a>
-        </Link>
-      </div>
-      <div className="grid lg:flex lg:flex-wrap justify-content-center">
+      {/* Masonry layout */}
+      <Masonry
+        breakpointCols={breakpointColumnsObj}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column"
+      >
         <Analytics />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/IM1.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2 grid-col-2"
-          src="/Event Photography/IM2.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/IM5.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/IM8.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2 grid-col-2"
-          src="/Event Photography/IM6.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/IM7.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/bambam1.jpg"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2 grid-col-2"
-          src="/Event Photography/bambam3.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/bambam2.jpg"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
 
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/bambam4.jpg"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/bambam5.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2 grid-col-2"
-          src="/Event Photography/bambam6.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/Gemini/7.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Event Photography/Gemini/8.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2 grid-col-2"
-          src="/Event Photography/Gemini/9.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Gemini/4.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Gemini/5.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Gemini/6.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Dancestoned 2023/ds9.jpg"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Event Photography/Dancestoned 2023/ds1.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Spotlight 2023/sl1.jpeg"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned2021/2.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned2021/1.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Event Photography/Dancestoned2021/6.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-contain m-2"
-          src="/Editorials/ed1.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Editorials/ed3.jpeg"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Editorials/ed8.jpg"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Landscape/Vlora/v2.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Landscape/Bremen Freimarkt/bf2.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Landscape/Schaffhausen/sh2.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Landscape/London/lon1.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2"
-          src="/Landscape/London/lon2.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-        <Image
-          className="object-fill m-2 grid-col-2"
-          src="/Landscape/Vlora/v7.JPG"
-          alt="Martina main"
-          width={360}
-          height={200}
-          priority
-        />
-      </div>
-      <div className=" bottom-0 left-0 mt-8 flex w-full items-end justify-center dark:from-black dark:via-black text-lg">
-        <Link href="/contact" passHref legacyBehavior>
-          <a className="pointer-events-none flex place-items-center gap-2 p-8 pointer-events-auto lg:p-0 font-mono font-semibold text-xl">
-            Contact
-          </a>
-        </Link>
-      </div>
+        {/* Dynamically render images from the array */}
+        {imageUrls.map((url, index) => (
+          <Image
+            key={index}
+            className="object-contain m-2"
+            src={url}
+            alt={`Image ${index + 1}`}
+            width={400}
+            height={200}
+            priority
+          />
+        ))}
+      </Masonry>
     </main>
   );
 }

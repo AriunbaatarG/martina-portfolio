@@ -1,14 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+// next.config.js
+module.exports = {
   images: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "martina-iden-blob.public.blob.vercel-storage.com",
+        hostname: "nhrxyrenvhuaybhx.public.blob.vercel-storage.com",
         port: "",
+        pathname: "/**", // Allow all paths
       },
     ],
   },
 };
-
-module.exports = nextConfig;
