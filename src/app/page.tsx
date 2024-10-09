@@ -31,12 +31,13 @@ export default function Home() {
         {imageUrls.map((url, index) => (
           <Image
             key={index}
-            className="object-contain m-2"
+            className="object-contain m-2 image-slide-up"
             src={url}
             alt={`Image ${index + 1}`}
             width={400}
             height={200}
             priority
+            style={{ animationDelay: `${index * 0.2}s` }} // Delay each image by 0.2 seconds
           />
         ))}
       </Masonry>

@@ -19,7 +19,6 @@ export const imageUrls = [
 
   "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/bambam1-JodhskUYVucho8fIesQ7b1QGB5x1Ft.jpg",
   "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/bambam3-fRbLkDMPfJ7d675cpXLbxIDGRHmBRp.JPG",
-  "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/2-nbc7HSXCElm2rbf0tLU1hsQi3dry1L.JPG",
   "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/4-vxeOYZvT1akAwlxpLaqJS45Z6U6D12.JPG",
   "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/5-wpUceVrNRW8Zlv16WvuOSYu0kVXmu0.JPG",
 
@@ -73,7 +72,6 @@ export const EventPhotographyURLS = [
   "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/7-73V1y1eaUNZawptfTwxpwIVtRpf83v.JPG",
   "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/9-wyeMXo6qU5rrPmshcI6NfRfYThXgwQ.JPG",
 
-  "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/2-nbc7HSXCElm2rbf0tLU1hsQi3dry1L.JPG",
   "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/4-vxeOYZvT1akAwlxpLaqJS45Z6U6D12.JPG",
   "https://nhrxyrenvhuaybhx.public.blob.vercel-storage.com/EventPhotography/5-wpUceVrNRW8Zlv16WvuOSYu0kVXmu0.JPG",
 ];
