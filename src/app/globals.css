@@ -40,7 +40,7 @@ body {
 /* Animation styles */
 @keyframes slideUp {
   0% {
-    transform: translateY(100px);
+    transform: translateY(50px);
     opacity: 0;
   }
   100% {
@@ -50,5 +50,25 @@ body {
 }
 
 .image-slide-up {
-  animation: slideUp 0.5s ease-in-out;
+  animation: slideUp 0.5s ease-in-out forwards;
+  opacity: 0; /* Start with opacity 0 */
 }
+
+.image-slide-up[data-visible="true"] {
+  opacity: 1;
+}
+
+/* Optional: Staggered animation effect */
+.image-slide-up[data-visible="true"]:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.image-slide-up[data-visible="true"]:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.image-slide-up[data-visible="true"]:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.image-slide-up[data-visible="true"]:nth-child(4) {
+  animation-delay: 0.4s;
+}
+/* Continue for as many images as needed */
