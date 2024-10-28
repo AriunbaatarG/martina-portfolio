@@ -17,7 +17,6 @@ export const imageUrls = [
   "/Event Photography/IM4.JPG",
   "/Event Photography/IM8.JPG",
 
-  "/Event Photography/IM10.JPG",
   "/Event Photography/bambam1.jpg",
   "/Event Photography/bambam3.JPG",
   "/Event Photography/Gemini/4.JPG",
