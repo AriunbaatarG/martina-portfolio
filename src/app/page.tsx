@@ -23,8 +23,9 @@ export default function Home() {
     500: 1,
   };
 
-  // Create IntersectionObserver to lazy load and trigger animations
   useEffect(() => {
+    const currentImageRefs = [...imageRefs.current]; // Copy imageRefs.current to a local variable
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -43,18 +44,16 @@ export default function Home() {
       { threshold: 0.1 } // Trigger when 10% of the image is visible
     );
 
-    imageRefs.current.forEach((image) => {
+    currentImageRefs.forEach((image) => {
       if (image) {
         observer.observe(image);
       }
     });
 
     return () => {
-      if (imageRefs.current) {
-        imageRefs.current.forEach((image) => {
-          if (image) observer.unobserve(image);
-        });
-      }
+      currentImageRefs.forEach((image) => {
+        if (image) observer.unobserve(image);
+      });
     };
   }, []);
 

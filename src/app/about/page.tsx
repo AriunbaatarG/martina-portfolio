@@ -31,8 +31,8 @@ export default function AboutMe() {
             Hi,
           </h1>
           <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed mt-4">
-            I'm an Albanian photographer based in Germany, but I'm available
-            worldwide.
+            I&apos;m an Albanian photographer based in Germany, but I&apos;m
+            available worldwide.
           </p>
           <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed mt-4">
             My photography journey began with local event shoots, where I fell
