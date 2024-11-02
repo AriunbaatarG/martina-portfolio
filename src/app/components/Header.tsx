@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,7 +39,15 @@ const Header = () => {
       {/* Centered Portfolio Title */}
       <div className="absolute left-1/2 transform -translate-x-1/2">
         <Link href="/" passHref legacyBehavior>
-          <img className="justify-center h-[70px]" src="IDENLESSLY2.png" />
+          <a>
+            <Image
+              src="/IDENLESSLY2.png" // Ensure the path is correct
+              alt="IDENLESSLY Logo"
+              width={250} // Adjust the width as needed
+              height={70} // Adjust the height as needed
+              className="justify-center"
+            />
+          </a>
         </Link>
       </div>
 

@@ -8,7 +8,7 @@ import { LandscapePhotographyURLS } from "../images";
 export default function Landscape() {
   // Define responsive breakpoints for the number of columns
   const breakpointColumnsObj = {
-    default: 4, // 4 columns by default
+    default: 3, // 4 columns by default
     1300: 3,
     1100: 2, // 3 columns at screen width > 1100px
     700: 1, // 2 columns at screen width > 700px
@@ -18,7 +18,7 @@ export default function Landscape() {
   // Array of image URLs
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 pt-[110px]">
       <Header />
 
       {/* Masonry layout */}
@@ -36,7 +36,7 @@ export default function Landscape() {
             className="object-contain m-2"
             src={url}
             alt={`Image ${index + 1}`}
-            width={400}
+            width={500}
             height={200}
             priority
           />
