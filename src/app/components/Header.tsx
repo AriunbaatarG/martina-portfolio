@@ -60,30 +60,40 @@ const Header = () => {
         {/* Dropdown Menu - Visible when menu button is clicked */}
         {isMenuOpen && (
           <div className="absolute top-12 right-0 bg-white dark:bg-zinc-800 flex flex-col items-start space-y-4 p-4 shadow-lg rounded-md min-w-max">
-            <Link href="/event_photography" passHref legacyBehavior>
-              <a className="block hover:text-gray-500 transition-colors">
-                CONCERTS
-              </a>
+            <Link
+              href="/event_photography"
+              passHref
+              className="block hover:text-gray-500 transition-colors dark:to-blue-800 "
+            >
+              CONCERTS
             </Link>
-            <Link href="/editorial" passHref legacyBehavior>
-              <a className="block hover:text-gray-500 transition-colors">
-                EDITORIALS
-              </a>
+            <Link
+              href="/editorial"
+              passHref
+              className="block hover:text-gray-500 transition-colors dark:to-blue-800 "
+            >
+              EDITORIALS
             </Link>
-            <Link href="/landscape" passHref legacyBehavior>
-              <a className="block hover:text-gray-500 transition-colors">
-                LANDSCAPE
-              </a>
+            <Link
+              href="/landscape"
+              passHref
+              className="block hover:text-gray-500 transition-colors dark:to-blue-800"
+            >
+              LANDSCAPE
             </Link>
-            <Link href="/about" passHref legacyBehavior>
-              <a className="block hover:text-gray-500 transition-colors">
-                ABOUT
-              </a>
+            <Link
+              href="/about"
+              passHref
+              className="block hover:text-gray-500 transition-colors dark:to-blue-800 "
+            >
+              ABOUT
             </Link>
-            <Link href="/contact" passHref legacyBehavior>
-              <a className="block hover:text-gray-500 transition-colors">
-                CONTACT
-              </a>
+            <Link
+              href="/contact"
+              passHref
+              className="block hover:text-gray-500 transition-colors dark:to-blue-800 "
+            >
+              CONTACT
             </Link>
           </div>
         )}

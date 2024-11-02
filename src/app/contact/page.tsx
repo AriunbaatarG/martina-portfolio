@@ -49,10 +49,10 @@ export default function Contact() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gray-50 dark:bg-gray-900">
+    <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 bg-gray-50 dark:bg-gray-900">
       <Header />
 
-      <div className="mt-12 mb-8">
+      <div className="mt-8 mb-4 md:mt-12 md:mb-8">
         <p className="text-center text-gray-600 dark:text-gray-300 text-sm">
           Get in touch for questions, commissions, or just to say hello.
         </p>
@@ -71,8 +71,8 @@ export default function Contact() {
         onSubmit={sendEmail}
       >
         {({ isSubmitting }) => (
-          <Form className="w-full max-w-2xl mx-auto space-y-6 p-8 bg-white dark:bg-zinc-800 shadow-lg rounded-xl">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Form className="w-full max-w-lg mx-auto space-y-4 md:space-y-6 p-4 md:p-8 bg-white dark:bg-zinc-800 shadow-lg rounded-xl">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               <div>
                 <label
                   htmlFor="firstName"
@@ -83,7 +83,7 @@ export default function Contact() {
                 <Field
                   name="firstName"
                   placeholder="John"
-                  className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+                  className="w-full p-2 md:p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
                 />
                 <ErrorMessage
                   name="firstName"
@@ -102,7 +102,7 @@ export default function Contact() {
                 <Field
                   name="lastName"
                   placeholder="Doe"
-                  className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+                  className="w-full p-2 md:p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
                 />
                 <ErrorMessage
                   name="lastName"
@@ -123,7 +123,7 @@ export default function Contact() {
                 name="email"
                 type="email"
                 placeholder="john.doe@example.com"
-                className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+                className="w-full p-2 md:p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
               />
               <ErrorMessage
                 name="email"
@@ -142,7 +142,7 @@ export default function Contact() {
               <Field
                 name="subject"
                 placeholder="Inquiry about services"
-                className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+                className="w-full p-2 md:p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
               />
               <ErrorMessage
                 name="subject"
@@ -163,7 +163,7 @@ export default function Contact() {
                 as="textarea"
                 rows="4"
                 placeholder="Type your message here..."
-                className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+                className="w-full p-2 md:p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
               />
               <ErrorMessage
                 name="message"
@@ -175,7 +175,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full py-3 font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700 transition disabled:opacity-50"
+              className="w-full py-2 md:py-3 font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700 transition disabled:opacity-50"
             >
               {isSubmitting ? "Sending..." : "Send Message"}
             </button>
@@ -184,39 +184,35 @@ export default function Contact() {
       </Formik>
 
       {/* Social Links */}
-      <div className="mt-12 text-center">
-        <div className="grid grid-flow-cols grid-cols-4 gap-4">
-          <Link
-            href="https://www.instagram.com/idenlessly/"
-            passHref
-            legacyBehavior
-          >
-            <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
-            </a>
+      <div className="mt-8 md:mt-12 text-center">
+        <div className="grid grid-cols-4 gap-4">
+          <Link href="https://www.instagram.com/idenlessly/">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size="2x"
+              className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer"
+            />
           </Link>
-          <Link
-            href="https://www.tiktok.com/@idenlesssly?_t=8hWLZt3W79i&_r=1"
-            passHref
-            legacyBehavior
-          >
-            <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
-              <FontAwesomeIcon icon={faTiktok} size="2x" />
-            </a>
+          <Link href="https://www.tiktok.com/@idenlesssly?_t=8hWLZt3W79i&_r=1">
+            <FontAwesomeIcon
+              icon={faTiktok}
+              size="2x"
+              className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer"
+            />
           </Link>
-          <Link
-            href="https://www.youtube.com/@martinaidendemaj902/featured"
-            passHref
-            legacyBehavior
-          >
-            <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
-              <FontAwesomeIcon icon={faYoutube} size="2x" />
-            </a>
+          <Link href="https://www.youtube.com/@martinaidendemaj902/featured">
+            <FontAwesomeIcon
+              icon={faYoutube}
+              size="2x"
+              className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer"
+            />
           </Link>
-          <Link href="mailto:martinaiden39@gmail.com" passHref legacyBehavior>
-            <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
-              <FontAwesomeIcon icon={faEnvelope} size="2x" />
-            </a>
+          <Link href="mailto:martinaiden39@gmail.com">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="2x"
+              className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer"
+            />
           </Link>
         </div>
       </div>
