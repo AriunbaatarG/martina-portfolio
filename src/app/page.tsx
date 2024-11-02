@@ -1,11 +1,10 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useState, useRef, MutableRefObject } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header";
 import Masonry from "react-masonry-css";
 import { imageUrls } from "./images";
-
 export default function Home() {
   // Define visibleImages as an object with number keys and boolean values
   const [visibleImages, setVisibleImages] = useState<Record<number, boolean>>(
@@ -17,7 +16,7 @@ export default function Home() {
 
   // Define responsive breakpoints for the number of columns
   const breakpointColumnsObj = {
-    default: 4,
+    default: 3,
     1300: 3,
     1100: 2,
     700: 1,
@@ -60,7 +59,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 pt-[110px]">
       <Header />
 
       {/* Masonry layout */}
@@ -78,13 +77,12 @@ export default function Home() {
             ref={(el) => {
               imageRefs.current[index] = el;
             }}
-            className={`object-contain m-2 image-slide-up ${
-              visibleImages[index] ? "slide-up-visible" : ""
-            }`}
+            className={`object-contain m-2 image-slide-up`}
+            data-visible={visibleImages[index] ? "true" : "false"}
             data-index={index}
             src={url}
             alt={`Image ${index + 1}`}
-            width={400}
+            width={500}
             height={200}
             priority
           />

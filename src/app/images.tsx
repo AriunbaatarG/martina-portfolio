@@ -62,8 +62,8 @@ export const EventPhotographyURLS = [
 
   "/Event Photography/bambam10.JPG",
   "/Event Photography/bambam11.JPG",
-  "/Event Photography/bambam2.JPG",
-  "/Event Photography/bambam4.JPG",
+  "/Event Photography/bambam2.jpg",
+  "/Event Photography/bambam4.jpg",
   "/Event Photography/bambam3.JPG",
 
   "/Event Photography/bambam5.JPG",

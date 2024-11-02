@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://use.typekit.net/pbe6mcv.css");
 
 :root {
   --foreground-rgb: 25, 23, 9;
@@ -17,6 +18,7 @@
 }
 
 body {
+  font-family: "roc-grotesk", sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,6 +26,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  @apply font-sans;
 }
 
 /* Masonry grid styles */
@@ -40,7 +44,7 @@ body {
 /* Animation styles */
 @keyframes slideUp {
   0% {
-    transform: translateY(50px);
+    transform: translateY(30px);
     opacity: 0;
   }
   100% {
