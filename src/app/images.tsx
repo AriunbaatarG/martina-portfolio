@@ -115,4 +115,4 @@ export const LandscapePhotographyURLS = [
   "/Landscape/Knoops/knoops2.JPG",
 ];
 
-export const selfie = "/selfie.jpeg";
+export const selfie = "/selfie2.jpeg";
