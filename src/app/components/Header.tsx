@@ -1,17 +1,37 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Close the menu if clicking outside of it
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    if (isMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMenuOpen]);
+
   return (
-    <div className="z-10 w-full fixed left-0 top-0 flex items-center justify-between font-mono font-semibold text-l p-10 bg-gradient-to-b from-zinc-200 dark:from-zinc-800 backdrop-blur-2xl border-b border-gray-300 dark:border-neutral-800">
+    <div className="z-10 w-full fixed left-0 top-0 flex items-center justify-between font-mono font-semibold text-l p-10 bg-gradient-to-b from-zinc-200 dark:from-zinc-800 backdrop-blur-2xl border-b border-gray-300 dark:border-neutral-800 font-roc-grotesk">
       {/* Invisible div to reserve space for flexbox alignment */}
       <div className="invisible w-full"></div>
 
@@ -23,7 +43,7 @@ const Header = () => {
       </div>
 
       {/* Menu Button for All Screens */}
-      <div className="relative">
+      <div className="relative" ref={menuRef}>
         <button onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} className="h-8 w-8 text-gray-700" />
         </button>
@@ -33,27 +53,27 @@ const Header = () => {
           <div className="absolute top-12 right-0 bg-white dark:bg-zinc-800 flex flex-col items-start space-y-4 p-4 shadow-lg rounded-md min-w-max">
             <Link href="/event_photography" passHref legacyBehavior>
               <a className="block hover:text-gray-500 transition-colors">
-                Concerts
+                CONCERTS
               </a>
             </Link>
             <Link href="/editorial" passHref legacyBehavior>
               <a className="block hover:text-gray-500 transition-colors">
-                Editorials
+                EDITORIALS
               </a>
             </Link>
             <Link href="/landscape" passHref legacyBehavior>
               <a className="block hover:text-gray-500 transition-colors">
-                Landscape
+                LANDSCAPE
               </a>
             </Link>
             <Link href="/about" passHref legacyBehavior>
               <a className="block hover:text-gray-500 transition-colors">
-                About
+                ABOUT
               </a>
             </Link>
             <Link href="/contact" passHref legacyBehavior>
               <a className="block hover:text-gray-500 transition-colors">
-                Contact
+                CONTACT
               </a>
             </Link>
           </div>

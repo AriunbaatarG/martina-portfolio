@@ -3,6 +3,12 @@
 @tailwind utilities;
 @import url("https://use.typekit.net/pbe6mcv.css");
 
+.font-roc-grotesk {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 25, 23, 9;
   --background-start-rgb: 244, 242, 236;

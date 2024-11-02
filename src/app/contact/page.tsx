@@ -6,61 +6,219 @@ import {
   faTiktok,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"; // For email icon
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Header from "../components/Header";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import emailjs from "emailjs-com";
+
+// Validation schema using Yup
+const validationSchema = Yup.object({
+  firstName: Yup.string().required("First name is required"),
+  lastName: Yup.string().required("Last name is required"),
+  email: Yup.string()
+    .email("Invalid email address")
+    .required("Email is required"),
+  subject: Yup.string().required("Subject is required"),
+  message: Yup.string().required("Message is required"),
+});
 
 export default function Contact() {
+  const sendEmail = async (values: any, actions: any) => {
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string,
+        {
+          firstName: values.firstName,
+          lastName: values.lastName,
+          email: values.email,
+          subject: values.subject,
+          message: values.message,
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string
+      );
+      alert("Email sent successfully!");
+      actions.resetForm();
+    } catch (error) {
+      console.error("Failed to send email:", error);
+      alert("Failed to send email. Please try again.");
+    } finally {
+      actions.setSubmitting(false);
+    }
+  };
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gray-50 dark:bg-gray-900">
       <Header />
 
-      <div className="mt-24">
-        <p className="font-mono text-lg text-center">
-          If you have any questions, wish to discuss potential commissions, or
-          simply want to engage in a conversation, don&apos;t hesitate to get in
-          touch with me directly. Feel free to reach out via Instagram or drop
-          me an email—I&apos;m always open to connecting and discussing any
-          photography-related matters or just having a friendly chat.
+      <div className="mt-12 mb-8">
+        <p className="text-center text-gray-600 dark:text-gray-300 text-sm">
+          Get in touch for questions, commissions, or just to say hello.
         </p>
       </div>
 
-      <div className="flex items-center justify-center border-b-4 border-black">
-        <p className="font-mono font-bold text-lg">martinaiden39@gmail.com</p>
-      </div>
+      {/* Contact Form */}
+      <Formik
+        initialValues={{
+          firstName: "",
+          lastName: "",
+          email: "",
+          subject: "",
+          message: "",
+        }}
+        validationSchema={validationSchema}
+        onSubmit={sendEmail}
+      >
+        {({ isSubmitting }) => (
+          <Form className="w-full max-w-2xl mx-auto space-y-6 p-8 bg-white dark:bg-zinc-800 shadow-lg rounded-xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label
+                  htmlFor="firstName"
+                  className="block text-sm font-semibold text-gray-600 dark:text-gray-300"
+                >
+                  First Name
+                </label>
+                <Field
+                  name="firstName"
+                  placeholder="John"
+                  className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+                />
+                <ErrorMessage
+                  name="firstName"
+                  component="div"
+                  className="text-red-500 text-xs mt-1"
+                />
+              </div>
 
-      <div className="grid grid-flow-cols grid-cols-4 gap-4">
-        <Link
-          href="https://www.instagram.com/idenlessly/"
-          passHref
-          legacyBehavior
-        >
-          <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
-            <FontAwesomeIcon icon={faInstagram} size="2x" />
-          </a>
-        </Link>
-        <Link
-          href="https://www.tiktok.com/@idenlesssly?_t=8hWLZt3W79i&_r=1"
-          passHref
-          legacyBehavior
-        >
-          <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
-            <FontAwesomeIcon icon={faTiktok} size="2x" />
-          </a>
-        </Link>
-        <Link
-          href="https://www.youtube.com/@martinaidendemaj902/featured"
-          passHref
-          legacyBehavior
-        >
-          <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
-            <FontAwesomeIcon icon={faYoutube} size="2x" />
-          </a>
-        </Link>
-        <Link href="mailto:martinaiden39@gmail.com" passHref legacyBehavior>
-          <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
-            <FontAwesomeIcon icon={faEnvelope} size="2x" />
-          </a>
-        </Link>
+              <div>
+                <label
+                  htmlFor="lastName"
+                  className="block text-sm font-semibold text-gray-600 dark:text-gray-300"
+                >
+                  Last Name
+                </label>
+                <Field
+                  name="lastName"
+                  placeholder="Doe"
+                  className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+                />
+                <ErrorMessage
+                  name="lastName"
+                  component="div"
+                  className="text-red-500 text-xs mt-1"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label
+                htmlFor="email"
+                className="block text-sm font-semibold text-gray-600 dark:text-gray-300"
+              >
+                Email
+              </label>
+              <Field
+                name="email"
+                type="email"
+                placeholder="john.doe@example.com"
+                className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+              />
+              <ErrorMessage
+                name="email"
+                component="div"
+                className="text-red-500 text-xs mt-1"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="subject"
+                className="block text-sm font-semibold text-gray-600 dark:text-gray-300"
+              >
+                Subject
+              </label>
+              <Field
+                name="subject"
+                placeholder="Inquiry about services"
+                className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+              />
+              <ErrorMessage
+                name="subject"
+                component="div"
+                className="text-red-500 text-xs mt-1"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="message"
+                className="block text-sm font-semibold text-gray-600 dark:text-gray-300"
+              >
+                Message
+              </label>
+              <Field
+                name="message"
+                as="textarea"
+                rows="4"
+                placeholder="Type your message here..."
+                className="w-full p-3 mt-1 border rounded-md bg-gray-50 dark:bg-gray-700 dark:text-white"
+              />
+              <ErrorMessage
+                name="message"
+                component="div"
+                className="text-red-500 text-xs mt-1"
+              />
+            </div>
+
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="w-full py-3 font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700 transition disabled:opacity-50"
+            >
+              {isSubmitting ? "Sending..." : "Send Message"}
+            </button>
+          </Form>
+        )}
+      </Formik>
+
+      {/* Social Links */}
+      <div className="mt-12 text-center">
+        <div className="grid grid-flow-cols grid-cols-4 gap-4">
+          <Link
+            href="https://www.instagram.com/idenlessly/"
+            passHref
+            legacyBehavior
+          >
+            <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
+            </a>
+          </Link>
+          <Link
+            href="https://www.tiktok.com/@idenlesssly?_t=8hWLZt3W79i&_r=1"
+            passHref
+            legacyBehavior
+          >
+            <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
+              <FontAwesomeIcon icon={faTiktok} size="2x" />
+            </a>
+          </Link>
+          <Link
+            href="https://www.youtube.com/@martinaidendemaj902/featured"
+            passHref
+            legacyBehavior
+          >
+            <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
+              <FontAwesomeIcon icon={faYoutube} size="2x" />
+            </a>
+          </Link>
+          <Link href="mailto:martinaiden39@gmail.com" passHref legacyBehavior>
+            <a className="text-gray-700 hover:text-gray-500 dark:text-white hover:cursor-pointer">
+              <FontAwesomeIcon icon={faEnvelope} size="2x" />
+            </a>
+          </Link>
+        </div>
       </div>
     </main>
   );
