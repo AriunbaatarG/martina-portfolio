@@ -1,17 +1,27 @@
 export const imageUrls = [
-  "/Event Photography/BI/BI1.jpeg",
+  "/Event Photography/Bang/1.JPG",
   "/Event Photography/BI/BI10.jpeg",
+  "/Event Photography/Gemini/2.JPG",
+  "/Event Photography/Bang/13.JPG",
+  "/Event Photography/bambam6.JPG",
+
+  "/Event Photography/IM1.JPG",
+  "/Event Photography/BI/BI1.jpeg",
+  "/Event Photography/Bang/5.JPG",
   "/Event Photography/BI/BI12.jpeg",
   "/Event Photography/IM7.JPG",
-  "/Event Photography/BI/BI14.jpeg",
 
+  "/Event Photography/BI/BI14.jpeg",
+  "/Event Photography/Bang/3.JPG",
+  "/Event Photography/IM11.JPG",
   "/Event Photography/IM6.JPG",
   "/Event Photography/BI/BI5.jpeg",
+
   "/Event Photography/BI/BI6.jpeg",
   "/Event Photography/IM1.JPG",
   "/Event Photography/IM10.JPG",
 
-  "/Event Photography/IM11.JPG",
+  "/Event Photography/Bang/2.JPG",
   "/Event Photography/IM12.JPG",
   "/Event Photography/IM2.JPG",
   "/Event Photography/IM4.JPG",
