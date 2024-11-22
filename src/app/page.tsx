@@ -5,6 +5,8 @@ import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header";
 import Masonry from "react-masonry-css";
 import { imageUrls } from "./images";
+import Head from "next/head";
+
 export default function Home() {
   // Define visibleImages as an object with number keys and boolean values
   const [visibleImages, setVisibleImages] = useState<Record<number, boolean>>(
@@ -60,7 +62,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-10 pt-[110px]">
       <Header />
-
+      <Head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />;
+      </Head>
       {/* Masonry layout */}
       <Masonry
         breakpointCols={breakpointColumnsObj}

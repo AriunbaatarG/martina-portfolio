@@ -115,7 +115,7 @@ export const LandscapePhotographyURLS = [
 
   "/Landscape/Bremen Freimarkt/bf4.JPG",
   "/Landscape/Bremen Freimarkt/bf6.JPG",
-  "/Landscape/London/lon5.JPG",
+  "/Landscape/London/lon5.jpg",
   "/Landscape/Vlora/v2.JPG",
   "/Landscape/LS3.JPG",
 
