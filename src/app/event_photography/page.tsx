@@ -15,33 +15,45 @@ export default function EventPhotography() {
     500: 1, // 1 column at screen width < 500px
   };
 
-  // Array of image URLs
-
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-10 pt-[110px]">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 pt-[150px]">
       <Header />
 
-      {/* Masonry layout */}
-      <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
-      >
-        <Analytics />
+      {Object.entries(EventPhotographyURLS).map(
+        ([title, urls], sectionIndex) => (
+          <section key={sectionIndex} className="mb-12 w-full">
+            {/* Enhanced Section Title */}
+            <div className="text-center relative mb-8">
+              <h2 className="text-3xl font-extrabold text-gray-800 uppercase tracking-wide mb-4">
+                {title}
+              </h2>
+              <div className="flex justify-center">
+                <div className="h-1 w-16 bg-blue-500 rounded-md"></div>
+              </div>
+            </div>
 
-        {/* Dynamically render images from the array */}
-        {EventPhotographyURLS.map((url, index) => (
-          <Image
-            key={index}
-            className="object-contain m-2"
-            src={url}
-            alt={`Image ${index + 1}`}
-            width={500}
-            height={200}
-            priority
-          />
-        ))}
-      </Masonry>
+            {/* Masonry Layout */}
+            <Masonry
+              breakpointCols={breakpointColumnsObj}
+              className="my-masonry-grid"
+              columnClassName="my-masonry-grid_column"
+            >
+              <Analytics />
+              {urls.map((url, index) => (
+                <Image
+                  key={index}
+                  className="object-contain m-2 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+                  src={url}
+                  alt={`Image ${index + 1}`}
+                  width={500}
+                  height={200}
+                  priority
+                />
+              ))}
+            </Masonry>
+          </section>
+        )
+      )}
     </main>
   );
 }
