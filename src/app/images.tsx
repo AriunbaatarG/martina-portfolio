@@ -84,7 +84,9 @@ export const EventPhotographyURLS = {
     "/Event Photography/Gemini/4.JPG",
     "/Event Photography/Gemini/5.JPG",
     "/Event Photography/Gemini/7.JPG",
+    "/Event Photography/Gemini/8.JPG",
     "/Event Photography/Gemini/9.JPG",
+    "/Event Photography/Gemini/10.JPG",
   ],
   "Bang Yongguk III Europe Tour 2024": [
     "/Event Photography/Bang/1.JPG",
