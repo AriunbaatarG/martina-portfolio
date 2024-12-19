@@ -6,31 +6,28 @@ export const imageUrls = [
   "/Event Photography/bambam6.JPG",
 
   "/Event Photography/IM1.JPG",
+  "/Event Photography/BI/BI12.jpeg",
   "/Event Photography/BI/BI1.jpeg",
   "/Event Photography/Bang/5.JPG",
-  "/Event Photography/BI/BI12.jpeg",
-  "/Event Photography/IM7.JPG",
-
-  "/Event Photography/BI/BI14.jpeg",
   "/Event Photography/Bang/3.JPG",
-  "/Event Photography/IM11.JPG",
-  "/Event Photography/IM6.JPG",
-  "/Event Photography/BI/BI5.jpeg",
 
+  "/Event Photography/IM7.JPG",
+  "/Event Photography/BI/BI14.jpeg",
   "/Event Photography/BI/BI6.jpeg",
-  "/Event Photography/IM1.JPG",
+  "/Event Photography/IM11.JPG",
   "/Event Photography/IM10.JPG",
 
+  "/Event Photography/IM6.JPG",
+  "/Event Photography/BI/BI5.jpeg",
   "/Event Photography/Bang/2.JPG",
   "/Event Photography/IM12.JPG",
   "/Event Photography/IM2.JPG",
-  "/Event Photography/IM4.JPG",
-  "/Event Photography/IM8.JPG",
 
-  "/Event Photography/bambam1.jpg",
+  "/Event Photography/IM4.JPG",
   "/Event Photography/bambam3.JPG",
-  "/Event Photography/Gemini/4.JPG",
+  "/Event Photography/IM8.JPG",
   "/Event Photography/Gemini/5.JPG",
+  "/Event Photography/Gemini/4.JPG",
 
   "/Event Photography/Gemini/7.JPG",
   "/Event Photography/Gemini/9.JPG",
@@ -42,6 +39,7 @@ export const imageUrls = [
   "/Editorials/ketso1.png",
   "/Landscape/London/lon1.JPG",
   "/Landscape/London/lon3.JPG",
+  "/Event Photography/Festival/image00011.jpeg",
   "/Landscape/Vlora/v1.JPG",
 ];
 
@@ -55,6 +53,7 @@ export const EventPhotographyURLS = {
     "/Event Photography/BI/BI4.jpeg",
     "/Event Photography/BI/BI5.jpeg",
     "/Event Photography/BI/BI6.jpeg",
+    "/Event Photography/BI/BI7.jpeg",
   ],
   'BamBam "AREA52" World Tour 2024': [
     "/Event Photography/bambam1.jpg",
@@ -73,6 +72,7 @@ export const EventPhotographyURLS = {
     "/Event Photography/IM4.JPG",
     "/Event Photography/IM6.JPG",
     "/Event Photography/IM7.JPG",
+    "/Event Photography/IM8.JPG",
     "/Event Photography/IM10.JPG",
     "/Event Photography/IM11.JPG",
     "/Event Photography/IM12.JPG",
@@ -98,29 +98,30 @@ export const EventPhotographyURLS = {
     "/Event Photography/Bang/7.JPG",
     "/Event Photography/Bang/8.JPG",
     "/Event Photography/Bang/9.JPG",
-    "/Event Photography/Bang/10.JPG",
-    "/Event Photography/Bang/11.JPG",
-    "/Event Photography/Bang/12.JPG",
     "/Event Photography/Bang/13.JPG",
+    "/Event Photography/Bang/10.JPG",
+    "/Event Photography/Bang/12.JPG",
+    "/Event Photography/Bang/11.JPG",
   ],
-  "OFF DAYS Festival": [
+  "OFFDAYS Festival": [
     "/Event Photography/Festival/image00001.jpeg",
     "/Event Photography/Festival/image00002.jpeg",
     "/Event Photography/Festival/image00003.jpeg",
     "/Event Photography/Festival/image00004.jpeg",
-    "/Event Photography/Festival/image00005.jpeg",
+    "/Event Photography/Festival/image00011.jpeg",
     "/Event Photography/Festival/image00006.jpeg",
+    "/Event Photography/Festival/image00005.jpeg",
+
     "/Event Photography/Festival/image00007.jpeg",
     "/Event Photography/Festival/image00008.jpeg",
     "/Event Photography/Festival/image00009.jpeg",
     "/Event Photography/Festival/image00010.jpeg",
-    "/Event Photography/Festival/image00011.jpeg",
+
     "/Event Photography/Festival/image00012.jpeg",
     "/Event Photography/Festival/image00013.jpeg",
     "/Event Photography/Festival/image00014.jpeg",
     "/Event Photography/Festival/image00015.jpeg",
     "/Event Photography/Festival/image00016.jpeg",
-    "/Event Photography/Festival/image00017.jpeg",
   ],
 };
 

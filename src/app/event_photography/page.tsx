@@ -24,7 +24,7 @@ export default function EventPhotography() {
           <section key={sectionIndex} className="mb-12 w-full">
             {/* Enhanced Section Title */}
             <div className="text-center relative mb-8">
-              <h2 className="text-3xl font-extrabold text-gray-800 uppercase tracking-wide mb-4">
+              <h2 className="text-3xl font-extrabold text-gray-500 dark:text-blue-800 uppercase tracking-wide mb-4">
                 {title}
               </h2>
               <div className="flex justify-center">
@@ -42,7 +42,7 @@ export default function EventPhotography() {
               {urls.map((url, index) => (
                 <Image
                   key={index}
-                  className="object-contain m-2 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+                  className="object-contain m-2 rounded-lg shadow-lg  transition-transform duration-300"
                   src={url}
                   alt={`Image ${index + 1}`}
                   width={500}
