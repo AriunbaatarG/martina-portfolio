@@ -5,9 +5,7 @@ const Videography = () => {
   return (
     <>
       <Header /> {/* Include the Header component */}
-      <div className="min-h-screen p-10 bg-gradient-to-b from-gray-100 dark:from-gray-900 to-gray-50 dark:to-gray-800 text-gray-800 dark:text-gray-100 font-roc-grotesk">
-        <h1 className="text-3xl font-bold mb-8 text-center">Videography</h1>
-
+      <div className="min-h-screen p-10 bg-gradient-to-b from-gray-100 dark:from-gray-900 to-gray-50 dark:to-gray-800 text-gray-800 dark:text-gray-100 font-roc-grotesk pt-[150px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* YouTube Video 1 */}
           <div className="aspect-w-16 aspect-h-9">
