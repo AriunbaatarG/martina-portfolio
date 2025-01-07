@@ -82,6 +82,14 @@ const Header = () => {
               LANDSCAPE
             </Link>
             <Link
+              href="/videography"
+              passHref
+              className="block hover:text-gray-500 transition-colors dark:to-blue-800"
+            >
+              VIDEOGRAPHY
+            </Link>
+
+            <Link
               href="/about"
               passHref
               className="block hover:text-gray-500 transition-colors dark:to-blue-800 "
